@@ -1,9 +1,23 @@
 
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 body {
     background-color: #ffffff;
     display: block;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
@@ -13,16 +27,27 @@ ul {
   }
 
 li {
-    display: inline;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 li a {
     display: inline-block;
     color: #444;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding-top: 20px;
   }
+
+.left {
+    float: left;
+    padding-left: 20px;
+}
+
+.right {
+    float: right;
+    padding-right: 20px;
+}
 
 .logo {
     text-align: center;
