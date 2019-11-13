@@ -4,6 +4,8 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 body {
@@ -12,12 +14,33 @@ body {
     width: 100%;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #efefef;
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+}
+
 a {
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+header a {
+    color: #666;
+    padding-left: 15px;
+}
+
+footer a { 
+    color: #666;
+    padding-left: 25px;
 }
 
 ul {
@@ -30,44 +53,40 @@ li {
     display: inline-block;
     font-family: "Arial", sans-serif;
     font-size: 13px;
-    margin-top: 20px;
 }
 
 li a {
     display: inline-block;
-    color: #222;
     text-align: center;
-    padding: 0px 0px 0px 15px;
   }
 
 .left {
     float: left;
-    margin-left: 10px;
 }
 
 .right {
     float: right;
-    margin-right: 25px;
+    padding-right: 40px;
 }
 
 .logo {
     text-align: center;
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
-.searchrow {
+.search-container {
     text-align: center;
 }
 
-.searchbar {
+.search-bar {
     width: 500px;
-    height: 40px;
+    height: 42px;
     border: 1px solid #ddd;
     border-radius: 40px;
     margin: 25px 0px 30px 0px;
 }
 
-.buttonbar {
+.button-bar {
     text-align: center;
 }
 
